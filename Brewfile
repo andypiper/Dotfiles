@@ -1,6 +1,7 @@
 tap hivemq/hivemq
 tap pivotal/tap
 tap josegonzalez/php
+tap xoebus/cloudfoundry
 update
 install wget
 install vim --override-system-vi
