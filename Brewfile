@@ -2,6 +2,8 @@ tap hivemq/hivemq
 tap pivotal/tap
 tap josegonzalez/php
 tap xoebus/cloudfoundry
+tap phinze/cask
+tap jimbojsb/launchrocket
 update
 install wget
 install vim --override-system-vi
@@ -23,3 +25,9 @@ install geoip
 install gist
 install gradle
 install maven
+install gcutil
+install brew-cask
+install jq
+install chrome-cli
+install speedtest_cli
+cask install launchrocket
