@@ -30,7 +30,7 @@ install maven
 install gcutil
 install brew-cask
 install jq
-install chrome-cli
+# install chrome-cli # dead??
 install speedtest_cli
 install unrar
 install cabextract
