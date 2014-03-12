@@ -1,3 +1,4 @@
+# taps
 tap hivemq/hivemq
 tap pivotal/tap
 tap josegonzalez/php
@@ -5,6 +6,7 @@ tap xoebus/cloudfoundry
 tap phinze/cask
 tap jimbojsb/launchrocket
 update
+# brew installs
 install wget
 install vim --override-system-vi
 install hivemq
@@ -30,4 +32,15 @@ install brew-cask
 install jq
 install chrome-cli
 install speedtest_cli
+install unrar
+install cabextract
+install exiftool
+install jhead
+# let's get some casks
 cask install launchrocket
+# quicklook plugin supercharging
+cask install qlcolorcode qlstephen qlmarkdown
+cask install quicklook-json qlprettypatch quicklook-csv
+cask install betterzipql webp-quicklook suspicious-package
+cask install quicknfo invisorql qlimagesize
+cask install thong scriptql
