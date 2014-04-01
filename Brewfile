@@ -14,6 +14,7 @@ install hivemq-mqtt-accesslog
 install hivemq-mqtt-message-log
 install mosquitto
 install rabbitmq
+install php55
 install composer
 install activemq
 install apollo
