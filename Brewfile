@@ -39,6 +39,10 @@ install exiftool
 install jhead
 # let's get some casks
 cask install launchrocket
+cask install silverlight
+cask install airserver
+cask install monotype-skyfonts
+cask install vagrant virtualbox
 # quicklook plugin supercharging
 cask install qlcolorcode qlstephen qlmarkdown
 cask install quicklook-json qlprettypatch quicklook-csv
