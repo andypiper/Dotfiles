@@ -7,6 +7,7 @@ tap phinze/cask
 tap jimbojsb/launchrocket
 update
 # brew installs
+install blueutil # needed for Alfred BT toggle
 install wget
 install vim --override-system-vi
 install hivemq
