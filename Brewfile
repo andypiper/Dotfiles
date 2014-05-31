@@ -50,3 +50,4 @@ cask install quicklook-json qlprettypatch quicklook-csv
 cask install betterzipql webp-quicklook suspicious-package
 cask install quicknfo invisorql qlimagesize
 cask install thong scriptql
+cask install colorpicker-antetype
