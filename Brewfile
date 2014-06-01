@@ -30,6 +30,7 @@ install gist
 install gradle
 install maven
 install gcutil
+install gistit
 install brew-cask
 install jq
 # install chrome-cli # dead??
