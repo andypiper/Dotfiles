@@ -52,3 +52,4 @@ cask install betterzipql webp-quicklook suspicious-package
 cask install quicknfo invisorql qlimagesize
 cask install thong scriptql
 cask install colorpicker-antetype
+cask install provisionql qlgradle qlvideo
