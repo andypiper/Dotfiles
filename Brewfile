@@ -39,6 +39,7 @@ install unrar
 install cabextract
 install exiftool
 install jhead
+install swiftlint
 # let's get some casks
 cask install launchrocket
 cask install silverlight
@@ -48,8 +49,8 @@ cask install vagrant virtualbox
 # quicklook plugin supercharging
 cask install qlcolorcode qlstephen qlmarkdown
 cask install quicklook-json qlprettypatch quicklook-csv
-cask install betterzipql webp-quicklook suspicious-package
-cask install quicknfo invisorql qlimagesize
-cask install thong scriptql
+cask install betterzipql webpquicklook suspicious-package
+cask install quicknfo invisorql qlimagesize animated-gif-quicklook
+cask install scriptql qlstephen thong
 cask install colorpicker-antetype
 cask install provisionql qlgradle qlvideo
