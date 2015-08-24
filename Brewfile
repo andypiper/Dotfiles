@@ -44,8 +44,9 @@ install swiftlint
 cask install launchrocket
 cask install silverlight
 cask install airserver
-cask install monotype-skyfonts
+cask install skyfonts
 cask install vagrant virtualbox
+cask install today-scripts
 # quicklook plugin supercharging
 cask install qlcolorcode qlstephen qlmarkdown
 cask install quicklook-json qlprettypatch quicklook-csv
