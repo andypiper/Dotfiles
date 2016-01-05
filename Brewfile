@@ -9,6 +9,7 @@ update
 # brew installs
 install blueutil # needed for Alfred BT toggle
 install wget
+install uncrustify
 install vim --override-system-vi
 install hivemq
 install hivemq-mqtt-accesslog
@@ -55,3 +56,4 @@ cask install quicknfo invisorql qlimagesize animated-gif-quicklook
 cask install scriptql qlstephen thong
 cask install colorpicker-antetype
 cask install provisionql qlgradle qlvideo
+cask install platypus
