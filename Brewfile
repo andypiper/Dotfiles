@@ -24,7 +24,7 @@ install zsh-lovers
 install zsh-syntax-highlighting
 install node
 install hub
-install htop-osx
+install htop --with-curses
 install go
 install geoip
 install gist
