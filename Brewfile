@@ -9,6 +9,7 @@ update
 # brew installs
 install blueutil # needed for Alfred BT toggle
 install wget
+install socat
 install uncrustify
 install vim --override-system-vi
 install hivemq
