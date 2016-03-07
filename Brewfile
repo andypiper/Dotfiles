@@ -42,6 +42,8 @@ install cabextract
 install exiftool
 install jhead
 install swiftlint
+install portaudio
+install mpg123
 # let's get some casks
 cask install launchrocket
 cask install silverlight
