@@ -56,7 +56,7 @@ cask install qlcolorcode qlstephen qlmarkdown
 cask install quicklook-json qlprettypatch quicklook-csv
 cask install betterzipql webpquicklook suspicious-package
 cask install quicknfo invisorql qlimagesize animated-gif-quicklook
-cask install scriptql qlstephen thong
+cask install scriptql qlstephen ipaql thong
 cask install colorpicker-antetype
 cask install provisionql qlgradle qlvideo
 cask install platypus
