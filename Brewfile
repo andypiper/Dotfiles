@@ -7,6 +7,7 @@ tap phinze/cask
 tap jimbojsb/launchrocket
 update
 # brew installs
+install brew-cask
 install blueutil # needed for Alfred BT toggle
 install wget
 install socat
@@ -33,9 +34,8 @@ install gradle
 install maven
 install gcutil
 install gistit
-install brew-cask
 install jq
-# install chrome-cli # dead??
+install cf-cli
 install speedtest_cli
 install unrar
 install cabextract
@@ -44,7 +44,11 @@ install jhead
 install swiftlint
 install portaudio
 install mpg123
+install m-cli
+install tidy-html5
+install nmap
 # let's get some casks
+cask install haskell-platform
 cask install launchrocket
 cask install silverlight
 cask install airserver
@@ -56,7 +60,8 @@ cask install qlcolorcode qlstephen qlmarkdown
 cask install quicklook-json qlprettypatch quicklook-csv
 cask install betterzipql webpquicklook suspicious-package
 cask install quicknfo invisorql qlimagesize animated-gif-quicklook
-cask install scriptql qlstephen ipaql thong
+cask install scriptql qlstephen ipaql thong epubquicklook
+cask install quicklookapk qlrest
 cask install colorpicker-antetype
 cask install provisionql qlgradle qlvideo
 cask install platypus
