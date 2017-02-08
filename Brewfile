@@ -47,6 +47,7 @@ install mpg123
 install m-cli
 install tidy-html5
 install nmap
+install mas
 # let's get some casks
 cask install haskell-platform
 cask install launchrocket
