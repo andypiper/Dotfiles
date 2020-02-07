@@ -135,6 +135,8 @@ brew "htop"
 brew "httrack"
 # Add GitHub support to git on the command-line
 brew "hub"
+# Improved colored diff
+brew "icdiff"
 # IRC and ICB client
 brew "ircii"
 # Integer Set Library for the polyhedral model
@@ -147,6 +149,8 @@ brew "oniguruma"
 brew "jq"
 # Transform nested JSON data into tabular data in the shell
 brew "json-table"
+# Access DVDs as block devices without the decryption
+brew "libdvdcss"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Library for USB device access
@@ -197,6 +201,10 @@ brew "nmap"
 brew "node"
 # Renders an animated, color, ANSI-text loop of the Poptart Cat
 brew "nyancat"
+# General purpose programming language in the ML family
+brew "ocaml"
+# The OCaml package manager
+brew "opam"
 # Granddaddy of HTML tools, with support for modern standards
 brew "tidy-html5"
 # General-purpose scripting language
@@ -207,6 +215,8 @@ brew "phpunit"
 brew "pngcrush"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
+# Remote terminal application
+brew "mosh"
 # Software environment for statistical computing
 brew "r"
 # Messaging broker
@@ -223,7 +233,7 @@ brew "sbt"
 brew "scala"
 # Library for loading images as SDL surfaces and textures
 brew "sdl2_image"
-# netcat on steroids
+# SOcket CAT: netcat on steroids
 brew "socat"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
@@ -274,7 +284,7 @@ brew "zlib"
 brew "zsh-lovers"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Azure Function Cli 2.0
+# Azure Functions Core Tools 2.0
 brew "azure/functions/azure-functions-core-tools"
 # Download and parse ipsw(s)
 brew "blacktop/tap/ipsw"
@@ -285,6 +295,7 @@ brew "valelint/vale/vale"
 brew "yschimke/tap/okurl"
 
 cask "aerial"
+cask "amethyst"
 cask "avibrazil-rdm"
 cask "blink1control"
 cask "colorpicker-antetype"
@@ -292,6 +303,7 @@ cask "corelocationcli"
 cask "eclipse-ide"
 cask "epubquicklook"
 cask "fing"
+cask "gas-mask"
 cask "gephi"
 cask "gisto"
 cask "gqrx"
