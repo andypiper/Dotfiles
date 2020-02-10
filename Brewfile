@@ -143,6 +143,8 @@ brew "ircii"
 brew "isl@0.12"
 # Extract Digicam setting info from EXIF JPEG headers
 brew "jhead"
+# Json incremental digger
+brew "jid"
 # Regular expressions library
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
@@ -272,6 +274,8 @@ brew "watch"
 brew "webkit2png"
 # Internet file retriever
 brew "wget"
+# Translate common Internet acronyms
+brew "wtf"
 # The personal information dashboard for your terminal
 brew "wtfutil"
 # Download YouTube videos from the command-line
