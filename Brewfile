@@ -6,6 +6,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "teamookla/speedtest"
 tap "valelint/vale"
 tap "yschimke/tap"
 
@@ -237,8 +238,8 @@ brew "scala"
 brew "sdl2_image"
 # SOcket CAT: netcat on steroids
 brew "socat"
-# Command-line interface for https://speedtest.net bandwidth tests
-brew "speedtest-cli"
+# Ookla Speedtest
+brew "speedtest"
 brew "springboot"
 # This tool is a command-line client for the SSL Labs APIs
 brew "ssllabs-scan"
