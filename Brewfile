@@ -1,15 +1,17 @@
+tap "adoptopenjdk/openjdk"
 tap "azure/functions"
 tap "blacktop/tap"
 tap "cloudfoundry/tap"
+tap "finestructure/tap"
+tap "github/gh"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "teamookla/speedtest"
-tap "valelint/vale"
 tap "yschimke/tap"
-
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Apache ActiveMQ: powerful open source messaging server
@@ -20,36 +22,24 @@ brew "ant"
 brew "apktool"
 # Multi-protocol messaging broker based on ActiveMQ
 brew "apollo"
-# Generic library support script
-brew "libtool"
-# ODBC 3 connectivity for UNIX
-brew "unixodbc"
 # Graphical system information display for macOS
 brew "archey"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Record and share terminal sessions
 brew "asciinema"
 # Automatic configure script builder
 brew "autoconf"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
-# Parser generator
-brew "bison"
 # Control blink(1) indicator light
 brew "blink1"
 # Get/set bluetooth power and discoverable state
 brew "blueutil"
-# Asynchronous DNS library
-brew "c-ares"
 # Extract files from Microsoft cabinet files
 brew "cabextract"
-# GNU internationalization (i18n) and localization (l10n) library
-brew "gettext"
 # Core application library for C
-brew "glib", link: false
+brew "glib"
 # Control Google Chrome from the command-line
 brew "chrome-cli"
 # Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
@@ -68,6 +58,8 @@ brew "libev"
 brew "libidn"
 # Control the macOS dark mode from the command-line
 brew "dark-mode"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
 # Common error values for all GnuPG components
 brew "libgpg-error"
 # Assuan IPC Library
@@ -92,10 +84,8 @@ brew "lame"
 brew "sdl2"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# C library for the arithmetic of high precision complex numbers
-brew "libmpc"
 # GNU compiler collection
-brew "gcc", link: false
+brew "gcc"
 # CLI program that accepts piped input and presents files for selection
 brew "fpp"
 # Manage your Google Compute Engine resources
@@ -104,6 +94,8 @@ brew "gcutil"
 brew "gd"
 # This library is for the GeoIP Legacy format (dat)
 brew "geoip"
+# GitHub command-line tool
+brew "gh"
 # Command-line utility for uploading Gists
 brew "gist"
 # Command-line utility for creating Gists
@@ -182,6 +174,10 @@ brew "makedepend"
 brew "mas"
 # Java-based project management
 brew "maven"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Remote terminal application
+brew "mosh"
 # Message broker implementing the MQTT protocol
 brew "mosquitto"
 # Cross-platform library for audio I/O
@@ -194,10 +190,14 @@ brew "mscgen"
 brew "mtr"
 # Open source relational database management system
 brew "mysql"
+# 💊 steroids for Xcode Playgrounds
+brew "nef"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Utility for managing network connections
 brew "netcat"
+# Statically typed compiled systems programming language
+brew "nim"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
@@ -206,7 +206,7 @@ brew "node"
 brew "nyancat"
 # General purpose programming language in the ML family
 brew "ocaml"
-# The OCaml package manager
+# OCaml package manager
 brew "opam"
 # Granddaddy of HTML tools, with support for modern standards
 brew "tidy-html5"
@@ -216,20 +216,20 @@ brew "php"
 brew "phpunit"
 # Optimizer for PNG files
 brew "pngcrush"
-# Protocol buffers (Google's data interchange format)
-brew "protobuf"
-# Remote terminal application
-brew "mosh"
 # Software environment for statistical computing
 brew "r"
 # Messaging broker
 brew "rabbitmq"
+# Ruby version manager
+brew "rbenv"
+# Auto-installs gems for Ruby installs
+brew "rbenv-default-gems"
 # Persistent key-value database, with built-in net interface
 brew "redis"
+# Shell to work with Spring HATEOAS-compliant REST resources
+brew "rest-shell"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Powerful, clean, object-oriented scripting language
-brew "ruby", link: true
 # Build tool for Scala projects
 brew "sbt"
 # JVM-based programming language
@@ -238,8 +238,6 @@ brew "scala"
 brew "sdl2_image"
 # SOcket CAT: netcat on steroids
 brew "socat"
-# Ookla Speedtest
-brew "speedtest"
 brew "springboot"
 # This tool is a command-line client for the SSL Labs APIs
 brew "ssllabs-scan"
@@ -247,7 +245,7 @@ brew "ssllabs-scan"
 brew "swagger-codegen"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
-# User interface to the TELNET protocol (built from macOS Sierra sources)
+# User interface to the TELNET protocol
 brew "telnet"
 # Tool which checks for the support of TLS/SSL ciphers and flaws
 brew "testssl"
@@ -259,8 +257,6 @@ brew "texinfo"
 brew "thrift", link: false
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Command-line tool and Python library for archiving Twitter JSON
-brew "twarc"
 # Twitter fork of memcached
 brew "twemcache"
 # Source code beautifier
@@ -269,15 +265,21 @@ brew "uncrustify"
 brew "unrar"
 # Extraction utility for .zip compressed archives
 brew "unzip"
+# Syntax-aware linter for prose
+brew "vale"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Create screenshots of webpages from the terminal
 brew "webkit2png"
+# Command-line client for WebSockets
+brew "websocat"
 # Internet file retriever
 brew "wget"
+# Small, fast, portable MQTT client C implementation
+brew "wolfmqtt"
 # Translate common Internet acronyms
 brew "wtf"
-# The personal information dashboard for your terminal
+# Personal information dashboard for your terminal
 brew "wtfutil"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
@@ -294,30 +296,33 @@ brew "azure/functions/azure-functions-core-tools"
 # Download and parse ipsw(s)
 brew "blacktop/tap/ipsw"
 brew "cloudfoundry/tap/cf-cli"
-# A customizable, syntax-aware linter for prose.
-brew "valelint/vale/vale"
+# Describe your project
+brew "finestructure/tap/arena"
+# Ookla Speedtest
+brew "teamookla/speedtest/speedtest"
 # OkUrl
 brew "yschimke/tap/okurl"
-
+cask "adoptopenjdk"
 cask "aerial"
 cask "amethyst"
 cask "avibrazil-rdm"
 cask "blink1control"
 cask "colorpicker-antetype"
 cask "corelocationcli"
+cask "docker-toolbox"
 cask "eclipse-ide"
 cask "epubquicklook"
 cask "fing"
+cask "font-twitter-color-emoji"
 cask "gas-mask"
 cask "gephi"
 cask "gisto"
 cask "gqrx"
 cask "handbrake"
 cask "haskell-platform"
+cask "inkscape"
 cask "insomnia"
-cask "invisorql"
 cask "ipynb-quicklook"
-cask "julia"
 cask "launchrocket"
 cask "macdown"
 cask "manopen"
@@ -327,8 +332,8 @@ cask "now"
 cask "osxfuse"
 cask "platypus"
 cask "powershell"
-cask "qlcolorcode"
 cask "qlmarkdown"
+cask "qlplayground"
 cask "qlstephen"
 cask "qlvideo"
 cask "quicklook-csv"
@@ -338,72 +343,87 @@ cask "rstudio"
 cask "sequel-pro"
 cask "silverlight"
 cask "skyfonts"
+cask "steam"
 cask "suspicious-package"
+cask "swiftpm-catalog"
 cask "switchhosts"
 cask "tcl"
 cask "today-scripts"
 cask "vagrant"
-cask "virtualbox"
 cask "webpquicklook"
-
 mas "24 Hour Wallpaper", id: 1226087575
 mas "Affinity Photo", id: 824183456
 mas "Analog", id: 418343177
 mas "Apple Configurator 2", id: 1037126344
+mas "Aurora", id: 1495998489
 mas "baratmo", id: 610049951
 mas "BatterySqueezer", id: 439474862
 mas "BeFunky Express", id: 1042457604
+mas "Boop", id: 1518425043
 mas "Caffeine", id: 411246225
+mas "Calendar 366 II", id: 1265895169
 mas "Camouflage", id: 445264274
-mas "com.peacockmedia.integrity", id: 513610341
 mas "com.theitspecialistsllc.restfulmenu", id: 1403153623
+mas "Controller 4 Netatmo Presense", id: 1469831167
 mas "Controllers Lite", id: 673660806
 mas "coucou", id: 620436774
 mas "Dash", id: 449589707
 mas "DevCleaner", id: 1388020431
+mas "Developer", id: 640199958
 mas "Dialogue", id: 668273079
+mas "Disk Doctor", id: 455970963
+mas "Display Menu", id: 549083868
 mas "Drafts", id: 1435957248
+mas "Ecosia - The search engine that plants trees", id: 1463400445
 mas "Evernote", id: 406056744
 mas "Fantastical", id: 975937182
+mas "Gapplin", id: 768053424
 mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
-mas "GoodNotes", id: 1480793815
+mas "GoodNotes", id: 1444383602
 mas "Growl", id: 467939042
 mas "HardwareGrowler", id: 475260933
 mas "Helium", id: 1054607607
 mas "HeliumLift", id: 1018899653
+mas "HomeAtmo", id: 1359795390
 mas "HTTP Client", id: 418138339
+mas "Hue-topia", id: 734418119
 mas "iA Writer", id: 775737590
 mas "iBoostUp", id: 484829041
 mas "ibVPN OneClick", id: 1178552493
 mas "iFlicks 3", id: 1274494218
 mas "iMovie", id: 408981434
 mas "iNet Network Scanner", id: 403304796
+mas "Integrity Pro", id: 1361976004
 mas "Intensify", id: 716854513
 mas "JSON Helper", id: 453114608
 mas "Kaomoji", id: 1025701729
-mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "LightBlue", id: 639944780
 mas "Location Helper", id: 488536386
 mas "Markoff", id: 1084713122
 mas "Melo", id: 483104510
 mas "Microsoft Excel", id: 462058435
-mas "Microsoft Remote Desktop", id: 715768417
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
 mas "Monosnap", id: 540348655
 mas "Moom", id: 419330170
 mas "Motion", id: 434290957
+mas "MQTT Explorer", id: 1455214828
+mas "Netmo", id: 1192219511
 mas "NetSpot", id: 514951692
-mas "Numbers", id: 409203825
+mas "Noizio Lite", id: 1481029536
 mas "OneDrive", id: 823766827
-mas "Pages", id: 409201541
 mas "Parcel", id: 639968404
 mas "Paste JSON as Code • quicktype", id: 1330801220
 mas "Pixelmator Pro", id: 1289583905
+mas "Playgrounds", id: 1496833156
 mas "Rested", id: 421879749
-mas "Scratch Desktop", id: 1446785996
+mas "Scratch 3", id: 1446785996
 mas "Scribe", id: 789738094
+mas "Service Station", id: 1503136033
+mas "Slack", id: 803453959
+mas "Speedtest", id: 1153157709
 mas "Spout", id: 438001695
 mas "Textual IRC Client", id: 896450579
 mas "The Unarchiver", id: 425424353
@@ -416,6 +436,7 @@ mas "TweetDeck", id: 485812721
 mas "Twitter", id: 1482454543
 mas "Twitter Scripter", id: 645249778
 mas "VisualJSON", id: 488709442
+mas "Weather Glance", id: 1483742127
 mas "Webcam Settings", id: 533696630
 mas "WiFi Scanner", id: 411680127
 mas "Witch", id: 412485838
